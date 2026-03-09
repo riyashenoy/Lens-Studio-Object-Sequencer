@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/c1056906-e9a9-400b-ad14-c1b10ebfb116>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5efa25b9-0035-4405-bde2-233baf397ec4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5efa25b9-0035-4405-bde2-233baf397ec4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 39514846-bbe3-48cb-aade-a2da91d42b01
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/39514846-bbe3-48cb-aade-a2da91d42b01>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 69bd81a6-8780-4dab-969a-5df0804ff41e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    actions: false
+    delays: false
+    loopCount: false
+    objects: false
+    startAutomatically: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - startAutomatically: true
+      loopCount: !<float> 1.000000
+      objects: !<reference.SceneObject[]>
+        []
+      actions: !<string[]>
+        []
+      delays: !<float[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool startAutomatically = true
+    - // @input float loopCount = 1
+    - "// @input SceneObject[] objects = {}"
+    - "// @input string[] actions = {}"
+    - "// @input float[] delays = {}"
