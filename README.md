@@ -21,16 +21,14 @@ Easily sequence objects on a timer
 
 ### Step 1 | Add the 'ObjectSequencer.ts' script to your scene
 
-1. After playing around with this sample project, copy the ObjectSequencer.ts script and add it to your own project
-2. In the **Scene Hierarchy**, right-click and create a new empty SceneObject, name it 'Sequencer'
-4. In the **Inspector**, click **Add Component → Script**
-5. Assign `ObjectSequencer.ts` to it
+- After playing around with this sample project, copy the ObjectSequencer.ts script and add it to your own project
+- In the **Scene Hierarchy**, right-click and create a new empty SceneObject, name it 'Sequencer'
+- In the **Inspector**, click **Add Component → Script**
+- Assign `ObjectSequencer.ts` to it
 
 ### Step 2 | Fill in the three arrays
-
 - For every object you want to start **hidden**, have it's visibility disabled in the Scene Hierarchy
 - I store each "group" of objects into its own empty SceneObject, and name it for organization
-
 - Now select your `Sequencer` object. In the Inspector you'll see three arrays on the `ObjectSequencer` component:
 
 | Array | What to put in it |
