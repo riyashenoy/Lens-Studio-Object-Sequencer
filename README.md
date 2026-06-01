@@ -1,4 +1,4 @@
-<img src="README_images/demo.gif" width="50%">
+<img src="README_images/demo.gif">
 
 # Lens-Studio-Object-Sequencer
 Easily sequence objects on a timer
